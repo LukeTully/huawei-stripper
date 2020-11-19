@@ -5,5 +5,6 @@ This script will run through the lists of packages that belong to Huawei, Bell m
 Make sure you have adb installed and in your PATH.
 1. Clone the repo or download the file
 2. Customize the script to only remove what you're comfortable with. Google apps aren't uninstall by default, but you can easily uncomment line 132 for that.
-3. Run it from the terminal. For example: `. ~/Downloads/huawei-stripper/huawei.sh`
-4. Enjoy your phone a little more tidy!
+3. Make sure you can access your device by running `adb shell`
+4. Run it from the terminal. For example: `. ~/Downloads/huawei-stripper/huawei.sh`
+5. Enjoy your phone a little more tidy!
